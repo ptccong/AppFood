@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.apptest1kt">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UI.ContractScreen.ContractScreen"></activity>
+        <activity android:name=".UI.Favorites.FavoritesScreen" />
+        <activity android:name=".UI.HistoryScreen.HistoryScreen" />
+        <activity android:name=".UI.AboutScreen.AboutScreen" />
+        <activity android:name=".UI.CartScreen.CartShopScreen" />
+        <activity android:name=".UI.DetailFood.DetailFood" />
+        <activity
+            android:name=".UI.HomeScreen.HomeScreen"
+            android:label="@string/title_activity_home_screen"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".UI.RegisterScreen.Resistors"
+            android:theme="@style/splaspHome" />
+        <activity
+            android:name=".UI.LoginScreeen.LoginScreen"
+            android:theme="@style/splaspHome" />
+        <activity
+            android:name=".UI.SpashScreen.MainActivity"
+            android:theme="@style/Normal">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

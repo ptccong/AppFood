@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/home" android:title="Home" android:icon="@drawable/ic_action_home"></item>
+    <item android:id="@+id/history" android:title="History" android:icon="@drawable/ic_action_history"></item>
+    <item android:id="@+id/favourites" android:title="Favorite" android:icon="@drawable/ic_action_favorite"></item>
+    <item android:id="@+id/about" android:title="About" android:icon="@drawable/ic_action_about"></item>
+    <item android:id="@+id/contract" android:title="Contract" android:icon="@drawable/ic_action_contract" ></item>
+    <item android:id="@+id/log_out" android:title="Log out" android:icon="@drawable/ic_action_log" ></item>
+
+</menu>

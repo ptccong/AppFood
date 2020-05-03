@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_itemview"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_food"
+            android:layout_width="127dp"
+            android:layout_height="128dp"></de.hdodenhof.circleimageview.CircleImageView>
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_name_food"
+                android:textColor="#090909"
+                android:text="name"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"></TextView>
+            <TextView
+
+                android:id="@+id/tv_price"
+                android:text="price"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                android:textColor="#4CA850"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+<!--            <TextView-->
+<!--                android:id="@+id/tv_detail"-->
+<!--                android:textColor="#605E5E"-->
+<!--                android:text="detail"-->
+<!--                android:textSize="10dp"-->
+<!--                android:layout_width="240dp"-->
+<!--                android:layout_height="wrap_content"></TextView>-->
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

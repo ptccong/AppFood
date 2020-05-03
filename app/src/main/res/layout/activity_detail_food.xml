@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.DetailFood.DetailFood"
+    android:padding="20dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_food_detail"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:padding="5dp"
+        app:layout_constraintCircleRadius="125dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"></de.hdodenhof.circleimageview.CircleImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_food_detail"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp">
+
+        <TextView
+            android:id="@+id/tv_name_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Piza"
+            android:textSize="15dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/tv_price_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2000$"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:textAlignment="center">
+
+            <Button
+                android:id="@+id/btn_like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_butom"
+                android:textColor="#fff"
+                android:drawableLeft="@drawable/ic_action_tim"
+                android:text="LIKE"></Button>
+
+            <Button
+                android:id="@+id/btn_addCart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_butom"
+                android:layout_marginLeft="5dp"
+                android:drawableLeft="@drawable/ic_action_gio"
+                android:textColor="#fff"
+                android:text="add to card"></Button>
+
+            <Button
+                android:id="@+id/btn_favou"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/custom_butom"
+                android:textColor="#fff"
+                android:drawableLeft="@drawable/ic_action_tim"
+                android:text="favourite"></Button>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Details"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/tv_detail_food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Details"
+            android:textColor="#636060"
+            android:textSize="13dp"></TextView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

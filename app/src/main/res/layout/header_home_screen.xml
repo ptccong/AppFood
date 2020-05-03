@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:paddingTop="20dp"
+    android:paddingLeft="20dp"
+    android:background="#47E44E">
+    <TextView
+        android:id="@+id/image_avatar_user"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@drawable/rsz_11photo"></TextView>
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/tv_name"
+        android:text="Trần Thanh Tâm"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/tv_address"
+        android:text="Hà Nội"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/tv_phone_home"
+        android:text="0123456789"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+
+
+</LinearLayout>
